@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="328.0" style="-fx-background-color: f0f0f0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.bazunaka.bazfitnessfx.AuthController">
-      <Button fx:id="authButton" layoutX="105.0" layoutY="111.0" mnemonicParsing="false" onMouseExited="#changeDefaultColor" onMouseMoved="#changeColor" prefHeight="25.0" prefWidth="118.0" styleClass="buttons" text="Авторизоваться" textFill="#eeeeee" />
+      <Button fx:id="authButton" layoutX="105.0" layoutY="111.0" mnemonicParsing="false" onAction="#checkAuth" onMouseExited="#changeDefaultColor" onMouseMoved="#changeColor" prefHeight="25.0" prefWidth="118.0" styleClass="buttons" text="Авторизоваться" textFill="#eeeeee" />
       <PasswordField fx:id="password" layoutX="64.0" layoutY="91.0" prefHeight="26.0" prefWidth="200.0" promptText="Введите пароль" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="64.0" />
       <TextField fx:id="login" layoutX="64.0" layoutY="51.0" prefWidth="200.0" promptText="Введите логин" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="64.0" />
 </AnchorPane>
