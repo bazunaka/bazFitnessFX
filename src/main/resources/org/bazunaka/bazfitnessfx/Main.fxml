@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.bazunaka.bazfitnessfx.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.bazunaka.bazfitnessfx.MainController">
    <children>
       <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="60.0" prefWidth="572.0" styleClass="headerAnchorPane" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -43,7 +43,7 @@
                <children>
                   <ImageView fx:id="referencesImage" fitHeight="96.0" fitWidth="96.0" onMousePressed="#showChildForm" opacity="0.9" preserveRatio="true" styleClass="referencesImage" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../bazFitness/Images/references.png" />
+                        <Image url="@Images/references.png" />
                      </image>
                   </ImageView>
                   <Label fx:id="references" opacity="0.99" styleClass="references" stylesheets="@../../../../../../../bazFitness/Stylesheets/style.css" textFill="#222831" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
@@ -53,7 +53,7 @@
                   </Label>
                   <ImageView fx:id="accountImage" fitHeight="96.0" fitWidth="96.0" onMousePressed="#showChildForm" pickOnBounds="true" preserveRatio="true" styleClass="accountImage" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../bazFitness/Images/account.png" />
+                        <Image url="@Images/account.png" />
                      </image>
                   </ImageView>
                   <Label fx:id="account" contentDisplay="CENTER" opacity="0.99" textAlignment="CENTER" textFill="#222831" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
@@ -63,7 +63,7 @@
                   </Label>
                   <ImageView fx:id="trainingImage" fitHeight="96.0" fitWidth="96.0" onMousePressed="#showChildForm" pickOnBounds="true" preserveRatio="true" styleClass="trainingImage" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../bazFitness/Images/training.png" />
+                        <Image url="@Images/training.png" />
                      </image>
                   </ImageView>
                   <Label fx:id="training" contentDisplay="CENTER" opacity="0.99" textAlignment="CENTER" textFill="#222831" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
@@ -73,17 +73,17 @@
                   </Label>
                   <ImageView fx:id="analyzeImage" fitHeight="96.0" fitWidth="96.0" onMousePressed="#showChildForm" pickOnBounds="true" preserveRatio="true" styleClass="analyzeImage" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../bazFitness/Images/analyze.png" />
+                        <Image url="@Images/analyze.png" />
                      </image>
                   </ImageView>
                   <ImageView fx:id="nutritionImage" fitHeight="96.0" fitWidth="96.0" onMousePressed="#showChildForm" pickOnBounds="true" preserveRatio="true" styleClass="nutritionImage" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../bazFitness/Images/nutrition.png" />
+                        <Image url="@Images/nutrition.png" />
                      </image>
                   </ImageView>
                   <ImageView fx:id="settingsImage" fitHeight="96.0" fitWidth="96.0" onMousePressed="#showChildForm" pickOnBounds="true" preserveRatio="true" styleClass="settingsImage" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <image>
-                        <Image url="@../../../../../../../bazFitness/Images/settings.png" />
+                        <Image url="@Images/settings.png" />
                      </image>
                   </ImageView>
                   <Label fx:id="analyze" opacity="0.99" textFill="#222831" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
